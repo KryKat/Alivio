@@ -1,0 +1,66 @@
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html,
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+:root {
+  --font-main: "Lato", sans-serif;
+  --font-add: "Poppins", sans-serif;
+  /*const*/
+  --white: #fff;
+  --black: #000;
+  /*brands*/
+  --color-primary: #01996d;
+  --color-text-first: #484848;
+  --color-text-second: #292929;
+  --color-text-third: #fff;
+  --color-text-fourth: #424242;
+  --color-background: #245852;
+  --color-border: #d6d6d6;
+  --btn-radius: 4px;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+/*common styles*/
+.container {
+  max-width: 1507px;
+  width: 100%;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-main);
+  font-size: 20px;
+}
+.btn_link {
+  color: var(--black);
+}
+.btn_primary {
+  color: var(--color-text-third);
+  line-height: 25px;
+  border-radius: var(--btn-radius);
+  border: 1px solid var(--color-primary);
+  background: var(--color-primary);
+  padding: 13px 50px;
+}
