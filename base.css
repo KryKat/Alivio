@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+main {
+  padding-top: 90px;
+}
 img {
   max-width: 100%;
   display: inline-block;
